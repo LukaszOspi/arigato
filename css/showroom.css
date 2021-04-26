@@ -24,6 +24,21 @@
   justify-content: center;
 }
 
+@media all and (max-witdth: 800px) {
+.showroom 
+{
+  width: 100vh;
+  height: 100vh;
+}
+
+.carousel-container
+{
+  width: 80vh;
+  height: 80vh;
+}
+}
+
+
 .carousel-Img {
   margin: 0 auto;
   display: flex;
