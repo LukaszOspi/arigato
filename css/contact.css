@@ -1,6 +1,7 @@
 /*Add the styles for the contact section here. Remember to add 'contact' in front of every class you add so that we don't override each other's code :)*/
 body {
     height: 100%;
+    width: 100vw;
     background: linear-gradient(
         180deg,
         rgba(0, 41, 255, 0.02) 0%,
@@ -45,6 +46,13 @@ input[type="submit"] {
     padding-top: 12vh;
     width: 460px;
     margin: 5em auto;
+}
+
+@media  screen and (max-width: 800px) {
+    
+    .contact-container {
+        width: 90vw;
+    }
 }
 form {
     background-color: #ffffff;
