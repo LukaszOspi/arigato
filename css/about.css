@@ -8,9 +8,9 @@
   /* display: flex; */
   /* flex-direction: column; */
   /* margin: 10px; */
-  height: 100vh;
+  height: 100%;
   width: 100vw;
-  /* position: relative; */
+  position: relative;
   margin-right: 10px;
   margin-bottom: 100px;
   background-image: url("../assets/circles.svg");
@@ -49,17 +49,16 @@
   flex-flow: row-reverse-wrap;
 }
 
-.parallax {
-  /* The image used */
-  /* background-image: url("../assets/circles.svg");
+/* .parallax {
+  background-image: url("../assets/circles.svg");
   background-repeat: no-repeat;
-  object-fit: cover; */
-  /* background-size: ; */
-  /* width: 500px;
+  object-fit: cover;
+  background-size: auto;
+  width: 500px;
   display: flex;
-  flex-flow: row-reverse-wrap; */
-  /* position: relative; */
-}
+  flex-flow: row-reverse-wrap;
+  position: relative;
+} */
 /* Set a specific height */
 /* min-height: 500%;  */
 
@@ -93,15 +92,16 @@
 
   .about-container {
     padding-top: 12vh;
-    margin-top: 12vh;
+    /* margin-top: 12vh; */
     /* display: flex; */
     /* flex-direction: column; */
     /* margin: 10px; */
     height: 100vh;
     width: 100vw;
     /* position: relative; */
-    margin-right: 10px;
-    margin-bottom: 50px;
+    /* margin-right: 10px; */
+    margin-bottom: 200px;
+    flex-wrap: wrap;
   }
 
   .about-image-portrait {
