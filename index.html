@@ -1,297 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='css/navbar.css' rel='stylesheet'>
-  <link href='css/side-navbar.css' rel='stylesheet'>
-  <link href='css/home.css' rel='stylesheet'>
-  <link href='css/showroom.css' rel='stylesheet'>
-  <link href='css/about.css' rel='stylesheet'>
-  <link href='css/inspiration.css' rel='stylesheet'>
-  <link href='css/contact.css' rel='stylesheet'>
-  <link href='css/footer.css' rel='stylesheet'>
-  <link href='css/example.css' rel='stylesheet'>
-  <link href='css/style.css' rel='stylesheet'>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <title>Arigato</title>
-</head>
-<body>
-  <!-- This is where the navbar section starts -->
-  <nav>
-    <div class="nav-logo">
-      <h5>Sacha Bekkevold</h5>
-    </div>
-    <ul class="nav-links">
-      <li><a href="#home">Home</a>
-      </li>
-      <li><a href="#about">About</a>
-      </li>
-      <li><a href="#showroom">Showroom</a>
-      </li>
-      <li><a href="#inspiration">Inspiration</a>
-      </li>
-      <li><a href="#contact">Contact</a>
-      </li>
-    </ul>
-    <div class="burger">
-      <div class="dash1"></div>
-      <div class="dash2"></div>
-      <div class="dash3"></div>
-    </div>
-  </nav>
-  <!-- SIDE NAVIGATION BEGINS HERE -->
-<!-- <div class="home-icon"> -->
-       <!--  <a href="#home"><i class="fas fa-chevron-circle-right"></i></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/navbar.css" rel="stylesheet" />
+    <link href="css/side-navbar.css" rel="stylesheet" />
+    <link href="css/home.css" rel="stylesheet" />
+    <link href="css/showroom.css" rel="stylesheet" />
+    <link href="css/about.css" rel="stylesheet" />
+    <link href="css/inspiration.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <link href="css/example.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+    <title>Arigato</title>
+  </head>
+  <body>
+    <div class="body">
+      <!-- This is where the navbar section starts -->
+      <nav>
+        <div class="nav-logo">
+          <h5>Sacha Bekkevold</h5>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#showroom">Showroom</a></li>
+          <li><a href="#inspiration">Inspiration</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <div class="dash1"></div>
+          <div class="dash2"></div>
+          <div class="dash3"></div>
+        </div>
+      </nav>
+      <!-- SIDE NAVIGATION BEGINS HERE -->
+      <!-- <div class="home-icon"> -->
+      <!--  <a href="#home"><i class="fas fa-chevron-circle-right"></i></a>
         <div></div>
  -->
- <div class="side-nav">
-    <ul class="side-nav-links">
-      <div class="span">
-      <li><a href="#home"><i class="fas fa-chevron-circle-right"></i></a><div class="sec">Home</div></li>
+      <div class="side-nav">
+        <ul class="side-nav-links">
+          <div class="span">
+            <li>
+              <a href="#home"><i class="fas fa-chevron-circle-right"></i></a>
+              <div class="sec">Home</div>
+            </li>
+          </div>
+          <div class="span">
+            <li>
+              <a href="#about"><i class="fas fa-chevron-circle-right"></i></a>
+              <div class="sec">About</div>
+            </li>
+          </div>
+          <div class="span">
+            <li>
+              <a href="#showroom"
+                ><i class="fas fa-chevron-circle-right"></i
+              ></a>
+              <div class="sec">Showroom</div>
+            </li>
+          </div>
+          <div class="span">
+            <li>
+              <a href="#inspiration"
+                ><i class="fas fa-chevron-circle-right"></i
+              ></a>
+              <div class="sec">Inspiration</div>
+            </li>
+          </div>
+          <div class="span">
+            <li>
+              <a href="#contact"><i class="fas fa-chevron-circle-right"></i></a>
+              <div class="sec">Contact</div>
+            </li>
+          </div>
+        </ul>
       </div>
-      <div class="span">
-      <li><a href="#about"><i class="fas fa-chevron-circle-right"></i></a><div class="sec">About</div></li>
+
+      <!-- This is where the navbar section ends -->
+
+      <!-- This is where the home section starts. -->
+      <div class="home" id="home">
+        <video id="home-video" playsinline autoplay loop muted></video>
       </div>
-      <div class="span">
-      <li><a href="#showroom"><i class="fas fa-chevron-circle-right"></i></a><div class="sec">Showroom</div></li>
+
+      <!-- This is where the home section ends -->
+
+      <!--This is where the about section starts-->
+      <div class="about" id="about">
+        <div class="about-container">
+          <!-- <div class="parallax"> -->
+          <!-- <h3 class="about-main-title">About</h3> -->
+          <h1 class="about-welcome-title">
+            <span class="about-hello-span">Hello,</span><br />
+            i am Sacha Bekkevold
+          </h1>
+          <img
+            class="about-image-portrait"
+            src="assets/sacha-about-image.jpg"
+          />
+          <p class="about-paragraph">
+            Influenced by the surf and skate culture from my home, the sunny
+            west coast of Australia and inspired by the concept of japanese
+            shibori. The results are a trippy and funky aesthetic of psychedelic
+            colours and organic and geometric patterns. Currently residing in
+            Berlin, the electronic music and open airs have also influenced the
+            aesthetic.
+          </p>
+          <!-- </div> -->
+        </div>
       </div>
-      <div class="span">
-      <li><a href="#inspiration"><i class="fas fa-chevron-circle-right"></i></a><div class="sec">Inspiration</div></li>
-      </div>
-      <div class="span">
-      <li><a href="#contact"><i class="fas fa-chevron-circle-right"></i></a><div class="sec">Contact</div></li>
-      </div>
-    </ul>
-  </div>
+      <!-- </div> -->
 
-  <!-- This is where the navbar section ends -->
-
-  <!-- This is where the home section starts. -->
-  <div class="home" id="home">
-
-
-  <video id="home-video" playsinline autoplay loop muted>
-
-
-
-  </video>
-  </div>
-
-  <!-- This is where the home section ends -->
-
-<!--This is where the about section starts-->
-<div class="about" id="about">
-  <div class="about-container">
-    <div class="parallax">
-      <!-- <h3 class="about-main-title">About</h3> -->
-      <h1 class="about-welcome-title"><span class="about-hello-span">Hello,</span><br> i am Sacha Bekkevold</h1>
-   <img class="about-image-portrait" src="assets/sacha-about-image.jpg"/>
-      <p class="about-paragraph">
-      Influenced by the surf and skate culture from my home, the sunny west coast
-      of Australia and inspired by the concept of japanese shibori. The results are
-      a trippy and funky aesthetic of psychedelic colours and organic and geometric
-      patterns. Currently residing in Berlin, the electronic music and open airs
-      have also influenced the aesthetic.
-      </p>
-    </div>
-   </div>
- </div>
-<!-- </div> -->
-
-<!--   This is where the about section ends
+      <!--   This is where the about section ends
 -->
 
-  <!--   This is where the showroom section starts-->
-  <div class="showroom" id="showroom">
-    <div class="carousel-container">
+      <!--   This is where the showroom section starts-->
+      <div class="showroom">
+        <div class="carousel-container">
+          <div class="carousel-Img">
+            <div class="numbertext">1 / 14</div>
+            <img
+              src="assets/pictures/Kimono Lagoon Front.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Kimono Lagoon</h2></div>
+          </div>
 
-      <div class="carousel-Img">
-        <div class="numbertext">1 / 14</div>
-        <img src="assets/pictures/Kimono Lagoon Front.png"
-        alt="clothing image">
-        <div class="text"><h2>Kimono Lagoon</h2></div>
+          <div class="carousel-Img">
+            <div class="numbertext">2 / 14</div>
+            <img
+              src="./assets/pictures/Kimono Mermaid Back.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Kimono Mermaid</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">3 / 14</div>
+            <img
+              src="./assets/pictures/Kimono Multi Front.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Kimono Multi Front</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">4 / 14</div>
+            <img
+              src="./assets/pictures/Kimono Multi Back.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Kimono Multi Back</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">5 / 14</div>
+            <img
+              src="./assets/pictures/Kimono Sherbet Cropped Front.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Kimono Sherbet</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">6 / 14</div>
+            <img
+              src="./assets/pictures/Long Kimono Blue Front Open.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Kimono Blue</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">7 / 14</div>
+            <img
+              src="./assets/pictures/Long Kimono Orange Front.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Kimono Orange</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">8 / 14</div>
+            <img
+              src="./assets/pictures/Long Kimono Pink Blue Front.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Long Kimono Pink Blue</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">9 / 14</div>
+            <img
+              src="./assets/pictures/Bike Short Mermaid.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Bike Short Mermaid</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">10 / 14</div>
+            <img
+              src="./assets/pictures/Bike Short Blue.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Short Blue</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">11 / 14</div>
+            <img
+              src="./assets/pictures/Bike Short Hot Pink.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Bike Short Hot Pink</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">12 / 14</div>
+            <img
+              src="./assets/pictures/Sweater Blue.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Sweater Blue.</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">13 / 14</div>
+            <img
+              src="./assets/pictures/Sweater Orange.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Sweater Orange</h2></div>
+          </div>
+
+          <div class="carousel-Img">
+            <div class="numbertext">14 / 14</div>
+            <img
+              src="./assets/pictures/Sweater Pink.png"
+              alt="clothing image"
+            />
+            <div class="text"><h2>Sweater Pink.</h2></div>
+          </div>
+
+          <span class="prev" id="prev">
+            <h2>&#10094;</h2>
+          </span>
+          <span class="next" id="next"> <h2>&#10095;</h2> </span>
+        </div>
       </div>
 
-      <div class="carousel-Img">
-        <div class="numbertext">2 / 14</div>
-        <img src="./assets/pictures/Kimono Mermaid Back.png"
-        alt="clothing image">
-        <div class="text"><h2>Kimono Mermaid</h2></div>
+      <!--  This is where the showroom section ends -->
+
+      <!-- This is where the inspiration section starts  -->
+
+      <div class="inspiration" id="inspiration">
+        <!-- Place <div> tag where you want the feed to appear -->
+        <!-- Place <div> tag where you want the feed to appear -->
+
+        <div class="insta-feed">
+          <div id="curator-feed-default-feed-layout">
+            <a
+              href="https://curator.io"
+              target="_blank"
+              class="crt-logo crt-tag"
+            >
+              Powered by Curator.io</a
+            >
+          </div>
+        </div>
+        <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+        <script type="text/javascript">
+          /* curator-feed-default-feed-layout */
+          (function () {
+            var i,
+              e,
+              d = document,
+              s = "script";
+            i = d.createElement("script");
+            i.async = 1;
+
+            i.src =
+              "https://cdn.curator.io/published/d84d6f42-bbd3-47ac-acd1-bae2c0c1e736.js";
+            e = d.getElementsByTagName(s)[0];
+            e.parentNode.insertBefore(i, e);
+          })();
+        </script>
       </div>
+      <!-- This is where the inspiration ends -->
 
-      <div class="carousel-Img">
-        <div class="numbertext">3 / 14</div>
-        <img src="./assets/pictures/Kimono Multi Front.png"
-        alt="clothing image">
-        <div class="text"><h2>Kimono Multi Front</h2></div>
+      <!-- This is where the contact section starts -->
+      <div class="contact" id="contact">
+        <div class="contact-container">
+          <form method="post">
+            <ul>
+              <li>
+                <label for="name"
+                  ><span>Name <span class="required-star">*</span></span></label
+                >
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail"
+                  ><span
+                    >Email <span class="required-star">*</span></span
+                  ></label
+                >
+                <input type="email" id="mail" name="user_email" />
+              </li>
+              <li>
+                <label for="msg"><span>Message</span></label>
+                <textarea rows="4" cols="50" id="mail-content"></textarea>
+              </li>
+              <li>
+                <input type="button" value="Send Email" onclick="sendEmail()" />
+              </li>
+            </ul>
+          </form>
+        </div>
       </div>
+      <!-- 
+    <title>Sending Mail</title>
+    <form method="post">
+      <input type="button" value="Send Mail" onclick="sendMail()" />
+    </form> -->
 
+      <!-- This is where the contact section ends -->
 
-      <div class="carousel-Img">
-        <div class="numbertext">4 / 14</div>
-        <img src="./assets/pictures/Kimono Multi Back.png"
-        alt="clothing image">
-        <div class="text"><h2>Kimono Multi Back</h2></div>
-      </div>
-
-      <div class="carousel-Img">
-        <div class="numbertext">5 / 14</div>
-        <img src="./assets/pictures/Kimono Sherbet Cropped Front.png"
-        alt="clothing image">
-        <div class="text"><h2>Kimono Sherbet</h2></div>
-      </div>
-
-      <div class="carousel-Img">
-        <div class="numbertext">6 / 14</div>
-        <img src="./assets/pictures/Long Kimono Blue Front Open.png"
-        alt="clothing image">
-        <div class="text"><h2>Kimono Blue</h2></div>
-      </div>
-
-      <div class="carousel-Img">
-        <div class="numbertext">7 / 14</div>
-        <img src="./assets/pictures/Long Kimono Orange Front.png"
-        alt="clothing image">
-        <div class="text"><h2>Kimono Orange </h2></div>
-      </div>
-
-      <div class="carousel-Img">
-        <div class="numbertext">8 / 14</div>
-        <img src="./assets/pictures/Long Kimono Pink Blue Front.png"
-        alt="clothing image">
-        <div class="text"><h2>Long Kimono Pink Blue </h2></div>
-      </div>
-
-      <div class="carousel-Img">
-        <div class="numbertext">9 / 14</div>
-        <img src="./assets/pictures/Bike Short Mermaid.png"
-        alt="clothing image">
-        <div class="text"><h2>Bike Short Mermaid</h2></div>
-      </div>
-
-      <div class="carousel-Img">
-        <div class="numbertext">10 / 14</div>
-        <img src="./assets/pictures/Bike Short Blue.png"
-        alt="clothing image">
-        <div class="text"><h2>Short Blue</h2></div>
-      </div>
-
-      <div class="carousel-Img">
-        <div class="numbertext">11 / 14</div>
-        <img src="./assets/pictures/Bike Short Hot Pink.png"
-        alt="clothing image">
-        <div class="text"><h2>Bike Short Hot Pink</h2></div>
-      </div>
-
-      <div class="carousel-Img">
-        <div class="numbertext">12 / 14</div>
-        <img src="./assets/pictures/Sweater Blue.png"
-        alt="clothing image">
-        <div class="text"><h2>Sweater Blue.</h2></div>
-      </div>
-
-      <div class="carousel-Img">
-        <div class="numbertext">13 / 14</div>
-        <img src="./assets/pictures/Sweater Orange.png"
-        alt="clothing image">
-        <div class="text"><h2>Sweater Orange</h2></div>
-      </div>
-
-      <div class="carousel-Img">
-        <div class="numbertext">14 / 14</div>
-        <img src="./assets/pictures/Sweater Pink.png"
-        alt="clothing image">
-        <div class="text"><h2>Sweater Pink.</h2></div>
-      </div>
-
-      <span class="prev" id="prev">
-        <h2>&#10094; </h2>
-        </span>
-       <span class="next" id="next">
-            <h2>&#10095;</h2> </span>
-    </div>
-  </div>
-
-
-
-  <!--  This is where the showroom section ends -->
-
-  <!-- This is where the inspiration section starts  -->
-
-  <div class="inspiration" id="inspiration">
-<!-- Place <div> tag where you want the feed to appear -->
-  <!-- Place <div> tag where you want the feed to appear -->
-
-<div class="insta-feed">
-  <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">
-    Powered by Curator.io</a></div>
-</div>
-<!-- The Javascript can be moved to the end of the html page before the </body> tag -->
-<script type="text/javascript">
-/* curator-feed-default-feed-layout */
-(function () {
-  var i, e, d = document, s = "script";
-  i = d.createElement("script");
-  i.async = 1;
-
-  i.src = "https://cdn.curator.io/published/d84d6f42-bbd3-47ac-acd1-bae2c0c1e736.js";
-  e = d.getElementsByTagName(s)[0];
-  e.parentNode.insertBefore(i, e);
-})();
-</script>
-  </div>
-  <!-- This is where the inspiration ends -->
-
-  <!-- This is where the contact section starts -->
-    <div class="contact" id="contact">
-    <div class="contact-container">
-      <form>
-        <ul>
-          <li>
-            <label for="name"><span>Name <span class="required-star">*</span></span></label>
-            <input type="text" id="name" name="user_name">
-          </li>
-          <li>
-            <label for="mail"><span>Email <span class="required-star">*</span></span></label>
-            <input type="email" id="mail" name="user_email">
-          </li>
-          <li>
-            <label for="msg"><span>Message</span></label>
-            <textarea rows="4" cols="50"></textarea>
-          </li>
-          <li>
-            <input type="submit">
-          </li>
-        </ul>
-      </form>
-    </div>
-  </div>
-  <!-- This is where the contact section ends -->
-
-  <!-- This is where the footer section starts -->
-  <footer class="footer-container">
-    <!-- <section class="footer-container"> -->
-    <div id="sacha1">
-      <h5>Sacha Bekkevold</h5>
-    </div>
-      <a href="mailto:contactstudiosach@gmail.com"><i class="fas fa-envelope-square"></i></a>
-      <a href="https://www.instagram.com/studio_sach/" target="_blank"><i class="fab fa-instagram"></i></a>
-      <a href="https://www.pinterest.de/sachabekkevold/" target="_blank"><i class="fab fa-pinterest-square"></i></a>
-    <div id="sacha2">
-      <p><a href="#">Impressum</a></p>
-    </div>
-<!--
+      <!-- This is where the footer section starts -->
+      <footer class="footer-container">
+        <!-- <section class="footer-container"> -->
+        <div id="sacha1">
+          <h5>Sacha Bekkevold</h5>
+        </div>
+        <a href="mailto:contactstudiosach@gmail.com"
+          ><i class="fas fa-envelope-square"></i
+        ></a>
+        <a href="https://www.instagram.com/studio_sach/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://www.pinterest.de/sachabekkevold/" target="_blank"
+          ><i class="fab fa-pinterest-square"></i
+        ></a>
+        <div id="sacha2">
+          <p><a href="#">Impressum</a></p>
+        </div>
+        <!--
     </section> -->
-  </footer>
-  <!-- This is where the footer section ends -->
+      </footer>
+      <!-- This is where the footer section ends -->
 
-
-<script src="index.js"></script>
-<script src="showroom.js"></script>
-<script src="videoquery.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js">
-</script>
-
-</body>
+      <script src="index.js"></script>
+      <script src="showroom.js"></script>
+      <script src="videoquery.js"></script>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+    </div>
+  </body>
 </html>
